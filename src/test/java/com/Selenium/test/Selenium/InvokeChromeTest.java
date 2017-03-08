@@ -14,7 +14,6 @@ public WebDriver driver;
     	System.setProperty("webdriver.chrome.driver","C:\\Users\\uid0655\\Desktop\\Selenium\\Driver&doc\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-
     }
     
     @Test
