@@ -12,6 +12,7 @@ public WebDriver driver;
     public InvokeChromeTest()
     {
     	System.setProperty("webdriver.chrome.driver","C:\\Users\\uid0655\\Desktop\\Selenium\\Driver&doc\\chromedriver.exe");
+    	System.out.println("ok");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
     }
